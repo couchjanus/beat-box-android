@@ -1,9 +1,6 @@
 package com.bignerdranch.android.beatbox;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import androidx.fragment.app.Fragment;;
+import androidx.fragment.app.Fragment;
 
 public class BeatBoxActivity extends SingleFragmentActivity {
     @Override

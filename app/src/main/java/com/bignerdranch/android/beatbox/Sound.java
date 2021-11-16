@@ -1,8 +1,8 @@
 package com.bignerdranch.android.beatbox;
 
 public class Sound {
-    private String mAssetPath;
-    private String mName;
+    private final String mAssetPath;
+    private final String mName;
 
     public Sound(String assetPath) {
         mAssetPath = assetPath;

@@ -12,8 +12,8 @@ public class BeatBox {
 
     private static final String SOUNDS_FOLDER = "sample_sounds";
 
-    private AssetManager mAssets;
-    private List<Sound> mSounds = new ArrayList<>();
+    private final AssetManager mAssets;
+    private final List<Sound> mSounds = new ArrayList<>();
 
     public BeatBox(Context context) {
         mAssets = context.getAssets();
